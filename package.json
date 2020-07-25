@@ -17,6 +17,7 @@
     "uuid": "^8.2.0"
   },
   "scripts": {
+    "deploy": "npm run build&&gh-pages -d build",
     "start": "react-scripts --max_old_space_size=8192 start",
     "build": "react-scripts --max_old_space_size=8192 build",
     "test": "react-scripts test",

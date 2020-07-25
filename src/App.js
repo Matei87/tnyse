@@ -5,7 +5,7 @@ import Details from './components/Details/Details';
 import Footer from "./components/Footer/Footer";
 
 import { v4 as uuid } from 'uuid';
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+import { HashRouter as Router, Route, Switch, Link } from 'react-router-dom';
 
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
