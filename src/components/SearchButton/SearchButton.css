@@ -1,0 +1,19 @@
+form {
+    display: flex; justify-content: center; align-items: center;
+    margin: 3rem;
+}
+input {
+    text-transform: uppercase;
+    width: 20rem !important;
+    padding: 1.5rem 2rem !important;
+    border: 2px solid #fff !important;
+}
+form > button.btn {
+    margin-left: 1%;
+    padding: .75rem 2rem !important;
+    border: 2px solid #fff; color: #fff;
+}
+form > button.btn:hover {
+    background: rgb(27, 36, 47); color: rgb(153, 153, 153);
+    border: 2px solid rgb(27, 36, 47);
+}

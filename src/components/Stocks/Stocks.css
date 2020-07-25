@@ -1,0 +1,70 @@
+.details-page, .details-page-p {
+    text-align: center;
+    font-weight: 600;
+}
+.stocks .col-md-6 .js-plotly-plot .plot-container {
+    display: flex !important; justify-content: center; align-content: center;
+
+}
+
+/*  Extra small devices*/
+@media (max-width: 575.98px) {
+    /*.container.stocks .row .col-md-12 {*/
+    /*    display: flex !important; justify-content: center; align-items: center;*/
+    /*    flex-direction: column !important;*/
+    /*    !*flex-basis: 50%; max-width: 60%;*!*/
+    /*}*/
+    /*.container.stocks .row .col-md-12 .js-plotly-plot {*/
+    /*    !*width: 350px !important;*!*/
+    /*}*/
+    /*.container.stocks .row .col-md-12 .js-plotly-plot .svg-container {*/
+    /*    !*width: inherit !important;*!*/
+    /*}*/
+    .svg-container {
+        width: 400px; height: 450px;
+    }
+
+}
+
+/*  Small devices*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    /*.container.stocks .row .col-md-12 {*/
+    /*    display: flex !important; justify-content: center; align-items: center;*/
+    /*    flex-direction: column !important;*/
+    /*    flex-basis: 100%; max-width: 100%;*/
+    /*}*/
+    .svg-container {
+        width: 510px; height: 450px;
+    }
+}
+
+/*  Medium devices*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    /*.container.stocks .row .col-md-12 {*/
+    /*    display: flex !important; justify-content: center; align-items: center;*/
+    /*    flex-direction: column !important;*/
+    /*    flex-basis: 100%; max-width: 100%;*/
+    /*}*/
+    .svg-container {
+        width: 690px; height: 450px;
+    }
+}
+
+/*  Large devices*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    /*.container.stocks .row .col-md-12 {*/
+    /*    display: flex !important; justify-content: center; align-items: center;*/
+    /*    flex-direction: column !important;*/
+    /*    flex-basis: 100%; max-width: 100%;*/
+    /*}*/
+    .svg-container {
+        width: 930px; height: 450px;
+    }
+}
+
+/*  Extra large devices*/
+@media (min-width: 1200px) {
+    .svg-container {
+        width: 1110px; height: 500px;
+    }
+}

@@ -1,0 +1,19 @@
+header {
+    margin-bottom: 2rem !important;
+    background: rgb(27, 36, 47);
+    position: relative;
+}
+header .col-md-12 > div {
+    height: 75px;
+    display: flex; justify-content: space-between; align-items: center;
+    font-weight: 600;
+    font-size: 1.15rem;
+    color: rgb(153, 153, 153);;
+}
+header .col-md-12 > div img {
+    height: 60px; width: 60px;
+    background: white;
+}
+header p {
+    margin: 0;
+}

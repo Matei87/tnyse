@@ -1,38 +1,117 @@
-.App {
-  text-align: center;
+.main-page-button {
+    margin: 2rem 0;
+    padding: .5rem 1rem !important;
+    color: #fff !important; border: 2px solid #fff !important;
+}
+.main-page-button.btn:hover {
+    background: rgb(27, 36, 47) !important; color: rgb(153, 153, 153) !important;
+    border: 2px solid rgb(27, 36, 47) !important;
+}
+.container .col-md-6:first-of-type p {
+    margin: 0;  line-height: 1.6;
+    font-size: 1.15rem;
+}
+.container .col-md-6:last-of-type {
+    padding: 0;
+}
+.container .col-md-6:last-of-type p {
+    margin: 0;
+    line-height: 1.6;
+    font-size: 1.15rem;
+}
+.container .col-md-6 > div, .container .col-md-4 > div, .container .col-md-2 > div {
+    width: 5rem;
+}
+.container .col-md-6 h2, .container .col-md-4 h2, .container .col-md-2 h2 {
+    border-bottom: 2px solid #fff;
+    padding: .5rem 0;
+}
+#mycompaniez {
+    height: 45rem;
+}
+#mycompaniez ul {
+    overflow: auto;
+    max-height: 100%; width: 10rem;
+    transition: all .55s ease;
+}
+#mycompaniez ul li:hover {
+    cursor: pointer;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.btn:focus {
+    box-shadow: none !important;
+    background: none !important;
+    border: 2px solid #fff !important;
+}
+.simbol {
+    text-transform: uppercase;
+}
+.text-bolduit {
+    font-weight: 600;
+}
+.descriere {
+    margin: 0;
+    line-height: 1.6;
+    font-size: 1rem!important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+/*  Extra small devices*/
+@media (max-width: 575.98px) {
+    .items {
+        display: flex; justify-content: center; flex-direction: column;
+    }
+    .container .row .col-md-6 {
+        padding: 0 15px;
+    }
+    form {
+        margin: 3rem 0;
+    }
+    form input {
+        width: 13rem !important;
+    }
+    .container .row {
+        display: flex !important; justify-content: center;
+    }
+    .container .row .col-sm-4.d-flex {
+        position: absolute; top: 200px; right: 5px;
+    }
+    .d-flex h1 {
+        font-size: 1.75rem !important;
+    }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/*  Small devices*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .container .row {
+        display: flex !important; justify-content: center; align-content: center;
+    }
+    .col-sm-12.col-md-6 {
+        margin-top: 2rem;
+    }
 }
 
-.App-link {
-  color: #61dafb;
+/*  Medium devices*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+    #mycompaniez ~ .col-md-4 {
+        margin-left: 10%; flex-basis: 70% !important; max-width: 100%;
+
+    }
+    #mycompaniez ~ .col-sm-12 {
+        flex-basis: 100% !important; max-width: 100%;
+        margin-top: 3rem;
+    }
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*  Large devices*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    #mycompaniez ~ .col-md-4 {
+        padding-left: 30px;
+    }
+}
+
+/*  Extra large devices*/
+@media (min-width: 1200px) {
+
 }
