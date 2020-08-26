@@ -1,3 +1,10 @@
-#REACT PROJECT
+# The New York Stock Exchange
 
-Fetching https://www.alphavantage.co api and showing the data into a plotly line chart
+The New York Stock Exchange is a small React application that fetches and displays on search details about the companies listed on Wall Street.
+
+# Built With
+
+* React
+* Bootstrap
+* Plotly
+* React Plotly
